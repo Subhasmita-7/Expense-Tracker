@@ -91,12 +91,14 @@ const SignUp = () => {
             placeholder = "John"
             type = "text" />
 
-          <Input 
+          <div className='col-span-2'>
+            <Input 
             value={email}
             onChange={({ target }) => setEmail(target.value)}
             label="Email Address"
             placeholder="abc@gmail.com"
             type="text" />
+          </div>
 
           <div className='col-span-2'>
             <Input 
